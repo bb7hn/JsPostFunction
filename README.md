@@ -1,4 +1,4 @@
-# JsPostFunction
+# Js Simple Post Function For Json Objects and Form Datas (BOTH)
 Simple Pure JS POST Function for Json Objects and Form Datas
 
 I created a function for to post my json objects and form datas.
