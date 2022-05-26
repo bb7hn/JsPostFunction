@@ -8,3 +8,19 @@ Basically work like that: Check the parameter(data) and detect the format (json 
 if it is text try to parse it and iterate it then append them into formdata and post.
 if it is form data just post
 else return false
+# Example Usages
+
+    //as an object (json)
+    let data = {test:"test};
+	//as a string
+    let data = '"test":"test"';
+    //as an array
+    let data = [1,2,3,4,5,6,7,8];
+	//as a form data
+	let data = new FormData();
+    data.append("test","test");
+
+	Post(url,json).then(data=>{
+		console.log(data);
+	})
+    
