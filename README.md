@@ -20,7 +20,7 @@ else return false
 	let data = new FormData();
     data.append("test","test");
 
-	Post(url,json).then(data=>{
+	Post(url,data).then(data=>{
 		console.log(data);
 	})
     
