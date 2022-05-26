@@ -11,7 +11,7 @@ else return false
 # Example Usages
 
     //as an object (json)
-    let data = {test:"test};
+    let data = {test:"test"};
 	//as a string
     let data = '"test":"test"';
     //as an array
