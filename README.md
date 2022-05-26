@@ -6,7 +6,7 @@ I tried to post json with fetch api but because of some reason, json did not wor
 So here the solution is.
 Basically works like that: Check the parameter(data) and detect the format (json or array or text or form data). If it is json or array (object) iterate it and append all into form data then post.
 if it is text try to parse it and iterate it then append them into formdata and post.
-if it is form data just post
+if it is form data just post.
 else return false
 # Example Usages
 
