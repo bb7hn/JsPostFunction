@@ -1,5 +1,6 @@
 /*This is a basic post function for posting formdata or json object
 function needs only 2 parameters url and data(Json Object or FormData())
+created by Batuhan Özen
 */
 const Post = async (url,data)=>{
     //check is data FormData()
